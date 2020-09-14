@@ -48,6 +48,8 @@ function addPhrasetoDisplay(arr){
         phrase.appendChild(newLi);
         if(ele !== " ") {   
             newLi.classList.add('letter');
+        } else {
+            newLi.classList.add('space');
         }
     } return phrase; 
 }
